@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import { UserModel } from 'src/models/UserModel';
+import {UserModel} from 'src/app/models/UserModel';
 /*import {HttpClient} from "@angular/common/http";
 import {UserModel} from "../../models/UserModel";
 import {Observable} from "rxjs";*/
