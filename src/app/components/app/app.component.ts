@@ -1,11 +1,12 @@
 import {Component} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
-import {UserModel} from "../../models/UserModel";
-import {UserService} from "../../services/user.service";
-import {PostModel} from "../../models/PostModel";
-import {PostService} from "../../services/post/post.service";
-import {CommentService} from "../../services/comment/comment.service";
-import {CommentModel} from "../../models/CommentModel";
+import {HttpClient} from '@angular/common/http';
+import {UserModel} from '../../models/UserModel';
+import {UserService} from '../../services/user.service';
+import {PostModel} from '../../models/PostModel';
+import {PostService} from '../../services/post/post.service';
+import {CommentService} from '../../services/comment/comment.service';
+import {CommentModel} from '../../models/CommentModel';
+import {CommentService} from '../../services/comment/comment.service';
 
 
 class postService {
