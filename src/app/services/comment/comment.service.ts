@@ -14,7 +14,7 @@ export class CommentService {
   }
 
   getComments(): Observable<CommentModel[]> {
-    return this.http.get<CommentModel[]>('https://jsonplaceholder.typicode.com/coments')
+    return this.http.get<CommentModel[]>('https://jsonplaceholder.typicode.com/comments')
   }
 
 }
