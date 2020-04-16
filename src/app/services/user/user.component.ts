@@ -19,9 +19,6 @@ export class UserComponent {
 
   }
 
- /* getUsers() : Observable<UserModel[]> {
-    return this.http.get<UserModel[]>('https://jsonplaceholder.typicode.com/users');
 
-    }*/
   }
 
